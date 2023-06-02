@@ -1,0 +1,20 @@
+{
+  "name": "limiter-client",
+  "version": "1.0.0",
+  "description": "Limit requests by key",
+  "main": "index.js",
+  "scripts": {
+    "test_dev": "npx nodemon ./src/tests/index.ts",
+    "test": "node ./build/tests/index",
+    "start": "node ./build/src/requests_limitter"
+  },
+  "author": "MoFoula",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}
