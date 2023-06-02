@@ -13,6 +13,10 @@
   "dependencies": {
     "moment": "^2.29.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mo-Foula/limiter-client.git"
+  },
   "devDependencies": {
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1"
