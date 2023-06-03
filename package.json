@@ -1,5 +1,5 @@
 {
-  "name": "limiter-client",
+  "name": "rate-limiter-sliding",
   "version": "1.0.0",
   "description": "Limit requests by key",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mo-Foula/limiter-client.git"
+    "url": "git+https://github.com/Mo-Foula/rate-limiter-sliding.git"
   },
   "devDependencies": {
     "nodemon": "^2.0.22",
