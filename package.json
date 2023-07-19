@@ -1,6 +1,6 @@
 {
   "name": "rate-limiter-sliding",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A generic rate limiter that can be used to limit requests, or anything just by using key, can protect from brute-force and DDoS attacks",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,9 @@
     "limiter",
     "sliding window",
     "sliding",
-    "requests"
+    "requests",
+    "rate limiter",
+    "rate limiting",
+    "requests rate limiter"
   ]
 }
