@@ -2,10 +2,10 @@
 ## Motivation:
 I needed a rate limiter client that can:
 <ol>
-<li>connect to multiple repositories easily.
-<li>Have 2 windows limiters (inner window and outer window).
-<li>Inner window would have a blocking duration after the maximum number of attempts is reached
-<li>Each window would have its own number of trials per duration, blocking duration and these numbers woult be easily specified by user.
+<li>connect to any data source easily.
+<li>Have 2 window limiters (inner window and outer window).
+<li>The inner window would have a blocking duration after the maximum number of attempts is reached
+<li>Each window would have its own number of trials per duration, and blocking duration and these numbers would be easily specified by the user.
 
 </ol>
 
